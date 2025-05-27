@@ -4,7 +4,7 @@ import java.util.List;
 import java.util.Optional;
 import java.util.stream.Collectors;
 
-import org.modelmapper.ModelMapper;
+//import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import parcial.web.martin.DTOs.EntidadDTO;
@@ -15,9 +15,6 @@ public class EntidadService {
 
     @Autowired
     private EntidadRepository entidadRepository;
-
-    @Autowired
-    ModelMapper modelMapper;
 
     // convertir entidad a DTO
     private EntidadDTO convertirEntidadDTO(Entidad entidad) {

@@ -6,7 +6,7 @@ import java.util.stream.Collectors;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import org.modelmapper.ModelMapper;
+//import org.modelmapper.ModelMapper;
 
 import parcial.web.martin.DTOs.ContratoDTO;
 import parcial.web.martin.entities.Contrato;
@@ -18,9 +18,6 @@ public class ContratoService {
 
     @Autowired
     private ContratoRepository contratoRepository;
-
-    @Autowired
-    ModelMapper modelMapper;
 
     // convertir contrato a DTO
     private ContratoDTO convertirContratoDTO(Contrato contrato) {
