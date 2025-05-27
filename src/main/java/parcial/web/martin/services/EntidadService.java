@@ -6,11 +6,13 @@ import java.util.stream.Collectors;
 
 //import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import parcial.web.martin.DTOs.EntidadDTO;
 import parcial.web.martin.entities.Entidad;
 import parcial.web.martin.repositories.EntidadRepository;
 
+@Service
 public class EntidadService {
 
     @Autowired
