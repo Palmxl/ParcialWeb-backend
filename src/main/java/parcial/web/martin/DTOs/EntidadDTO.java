@@ -2,6 +2,10 @@ package parcial.web.martin.DTOs;
 
 import java.util.List;
 
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
 import parcial.web.martin.entities.Contrato;
 
 @Getter
