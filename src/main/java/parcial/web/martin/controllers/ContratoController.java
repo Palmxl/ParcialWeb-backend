@@ -56,6 +56,4 @@ public class ContratoController {
         return contratoService.eliminarContrato(id) ? ResponseEntity.noContent().build() : ResponseEntity.notFound().build();
     }
 
-
-
 }
